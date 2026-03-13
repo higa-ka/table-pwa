@@ -1,5 +1,5 @@
 // キャッシュ名を上げると更新が確実に反映されます
-const CACHE_NAME = 'table-app-v2';
+const CACHE_NAME = 'table-app-v5';
 
 const ASSETS = [
   './',
@@ -11,7 +11,6 @@ const ASSETS = [
   './static/table3.jpg',
   './static/table4.jpg',
   './static/table5.jpg',
-  './static/table6.jpg',
   './static/icon-192.png',
   './static/icon-512.png'
 ];
