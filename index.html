@@ -51,20 +51,19 @@
     </div>
   </div>
   <script>
-    // ==== 設定（6卓） ====
-    const TABLE_COUNT = 6;
-    const MAX_PER_TABLE = 7;
-    const SLOT_SPINS = 15;
+    // ==== 設定（5卓・8人/卓） ====
+    const TABLE_COUNT   = 5;   // ← 5卓
+    const MAX_PER_TABLE = 8;   // ← 8人/卓
+    const SLOT_SPINS    = 15;
     const SLOT_INTERVAL = 100;
 
-    // 画像名：table1.jpg ～ table6.jpg
+    // 画像名：table1.jpg ～ table5.jpg
     const images = {
       1: 'static/table1.jpg',
       2: 'static/table2.jpg',
       3: 'static/table3.jpg',
       4: 'static/table4.jpg',
-      5: 'static/table5.jpg',
-      6: 'static/table6.jpg'
+      5: 'static/table5.jpg'
     };
 
     // ==== 状態 ====
@@ -74,11 +73,11 @@
     let slotTimer = null;
 
     // ==== 要素 ====
-    const imgEl = document.getElementById('img');
-    const titleEl = document.getElementById('title');
+    const imgEl    = document.getElementById('img');
+    const titleEl  = document.getElementById('title');
     const remainEl = document.getElementById('remain');
     const countsEl = document.getElementById('counts');
-    const drawBtn = document.getElementById('drawBtn');
+    const drawBtn  = document.getElementById('drawBtn');
     const resetBtn = document.getElementById('resetBtn');
 
     // ==== 関数 ====
